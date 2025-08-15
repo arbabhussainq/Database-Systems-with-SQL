@@ -1,6 +1,6 @@
 =>Data Manipulation Language:
 		->Used to insert, update, delete the data in the database objects.
-		->DML Queries can be undone
+		->DML Queries can be undone.
 
 =>INSERT Command:
 		Used to insert data in the database objects.
@@ -64,6 +64,7 @@ A: UPDATE emp SET jobTitle, deptNo IN(SELECT jobTitle, deptNo FROM emp WHERE emp
 Q: Change the Department Number of all employees with the same job as employee 7788 to the current department of employee 7788.
 
 	UPDATE emp SET deptNo IN(SELECT deptNo FROM emp WHERE deptNo=7788) WHERE jobTITLE IN (SELECT jobTitle FROM emp WHERE empNo=7788);
+
 
 
 	
