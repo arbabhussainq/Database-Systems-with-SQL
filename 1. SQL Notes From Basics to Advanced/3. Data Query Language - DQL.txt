@@ -559,3 +559,4 @@ Q: Display all information info of all employees from two tables emp, dept havin
 	
 	SELECT e.*, d.* FROM emp e FULL OUTER JOIN dept d on e.deptNo=d.deptNo;
 	
+
