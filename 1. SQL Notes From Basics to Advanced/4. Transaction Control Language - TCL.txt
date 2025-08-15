@@ -15,4 +15,5 @@ Transaction Control Language:
 		UPDATE
 		DELETE
 				All these statements will be rolled back (undone) iff there were no commits made to the db.
+
 		After running one DDL statement, All the above DML statements will be saved automatically...
