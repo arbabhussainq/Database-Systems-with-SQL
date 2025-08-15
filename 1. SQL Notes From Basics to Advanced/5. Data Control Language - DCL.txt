@@ -3,7 +3,7 @@
 	When multiple users can access database objects, authorization can be controlled to these objects with privileges. Every object has an owner.
 
 
-	There are 2 types of Privileges:
+	There are 2 types of Privileges::
 			->System Privileges:
 					->Alter Any Index
 					->Alter any Sequence
@@ -16,8 +16,6 @@
 			->Object Privileges
 
 	=>There must be one root user / sysdba (system administrator) which gives permissions to other users.
-
-
 		->Grant Keyword:
 				Used to give privileges to users.
 		->Revoke:
@@ -73,3 +71,4 @@ Important Tasks:
 	CONNECT talha/abc
 	SELECT *  FROM emp;
 		
+
